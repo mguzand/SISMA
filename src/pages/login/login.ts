@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, AlertController, MenuController, Events } from 'ionic-angular';
 import { Http } from '@angular/http';
 import { ValidateloginProvider } from '../../providers/validatelogin/validatelogin';
-import { TabsPage } from '../tabs/tabs';
 
 @IonicPage()
 @Component({
@@ -52,7 +51,7 @@ export class LoginPage {
             localStorage.setItem('Usuario', this.SolRealizadas[0][0]['usuNombre'] );
             localStorage.setItem('Cargo', this.SolRealizadas[0][0]['usuCargo'] );
 
-            this.navCtrl.setRoot(TabsPage);
+        
           } else {
               let alert = this.alertCtrl.create({
                   title: 'Error',
