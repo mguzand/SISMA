@@ -1,17 +1,37 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+
+    <ion-navbar>
+     <img src="assets/imgs/logo-pnh.png" style="height: 50px;">
+    </ion-navbar>
+    <ion-toolbar class="titles">
+      <ion-buttons end>
+        <button ion-button icon-only (click)="presentPopover($event)">
+          <ion-icon name="more"></ion-icon>
+        </button>
+      </ion-buttons>
+      <!-- <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button> -->
+      <ion-title>Contacto</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+    <ion-card>
+        <img src="assets/imgs/login_sistema.svg"/>
+        <ion-card-content>
+          <ion-card-title>
+           Contactanos:
+            </ion-card-title>
+          <p>
+           Correo: soporte@sismapnh.com
+          </p>
+          <p>Sitio web: http://sismapnh.com</p>
+
+          <p>Comite Central Partido Nacional de Honduras</p>
+        </ion-card-content>
+      </ion-card>
+
+
+    
 </ion-content>

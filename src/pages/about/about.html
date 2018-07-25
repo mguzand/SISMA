@@ -1,11 +1,36 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
+    <ion-navbar>
+     <img src="assets/imgs/logo-pnh.png" style="height: 50px;">
+    </ion-navbar>
+    <ion-toolbar class="titles">
+      <ion-buttons end>
+        <button ion-button icon-only (click)="presentPopover($event)">
+          <ion-icon name="more"></ion-icon>
+        </button>
+      </ion-buttons>
+      <!-- <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button> -->
+      <ion-title>Ayuda</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
+
+  <ion-content>
+  <ion-card>
+      
+      <ion-card-content>
+        <ion-card-title>
+            INFORMACIÓN DE LA APP
+          </ion-card-title>
+        <p>
+         Aplicacion desarrollada para el control de militantes del Partido Nacional de Honduras,
+         Con el objetivo de administrar los datos de los correligionarios.
+        </p>
+        <p>Sitio Oficial: http://sismapnh.com</p>
+
+        <p>Copyright © 2018 Todos los Derechos Reservados.</p>
+      </ion-card-content>
+    </ion-card>
 </ion-content>

@@ -1,0 +1,222 @@
+page-login {
+    .headercontainers {
+        border-radius: 12px !important;
+        border: none !important;
+        /* padding: 10px 20px; */
+    }
+    
+    .collection {
+        margin: 1.5rem 0 2rem 0;
+        border: 1px solid #e0e0e0;
+        border-radius: 2px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .collection.with-header .collection-header {
+        background-color: #fff;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 20px;
+    }
+    
+    .bodycontainer3 {
+        background: #00377b !important;
+        padding: 5px 20px !important;
+    }
+    
+    ul li {
+        list-style-type: none;
+    }
+    
+    ul, menu, dir {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+    }
+    
+    
+    .input-field {
+        position: relative;
+        margin-top: 1rem;
+    }
+    
+    input[type=text], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgba(34, 34, 34, 0.47);
+        background: rgba(34, 34, 34, 0.47);
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: white;
+    }
+    .button-block {
+        display: block;
+        clear: both;
+        width: 80%;
+        contain: strict;
+    }
+
+    input[type=password], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgba(34, 34, 34, 0.47);
+        background: rgba(34, 34, 34, 0.47);
+        border-radius: 4px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: white;
+    }
+    
+    ion-grid.bg-fondo.grid {
+        padding-top: 65px;
+    }
+    
+    input {
+        line-height: normal;
+    }
+    
+    input {
+        -webkit-appearance: textfield;
+        background-color: white;
+        -webkit-rtl-ordering: logical;
+        user-select: text;
+        cursor: auto;
+        padding: 1px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: initial;
+        border-image: initial;
+    }
+    
+    input, textarea, select, button {
+        text-rendering: auto;
+        color: initial;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        margin: 0em;
+        font: 11px system-ui;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+
+
+    .text-input::-moz-placeholder {
+        color: #ffffff;
+      }
+      
+      .text-input:-ms-input-placeholder {
+        color: #ffffff;
+      }
+      
+      .text-input::-webkit-input-placeholder {
+        color: #ffffff;
+      }
+
+
+}
+
+
+
+
+
+
+
+
+    .avatar{
+        top: 16px;
+        left: 16px;
+        height: 65px;
+        width: 65px;
+    }
+    .menu-bottom2 {
+        bottom: 34px;
+        left: 68px;
+        right: 16px;
+        position: absolute;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .menu-bottom {
+        bottom: 16px;
+        left: 68px;
+        right: 16px;
+        position: absolute;
+        font-weight: bold;
+    }
+    
+    .expanded {
+        box-shadow: none;
+        min-height: 150px;
+        color: #fff;
+    }
+    
+    .bar {
+        z-index: 2;
+        font-size: 1.2em;
+        width: 100%;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    }
+    
+    .item-md {
+        position: relative;
+        padding-right: 0;
+        padding-left: 16px;
+        font-size: 1.4rem;
+        font-weight: normal;
+        text-transform: none;
+        color: #444;
+        box-shadow: none;
+        font-weight: bold;
+    }
+    
+    .cargo {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    ion-header.header.header-md {
+        background: #ffc20f;
+        color: #00377b;
+    }
+    
+    div ion-content.content.content-md {
+        background: #00377b;
+    }
+    
+    .item-md{
+            background-color: #00377b;
+                color: #fff;
+    }
+    
+    ion-item.item.item-block.item-md {
+        background: #fff;
+        color: #444;
+    }
+    
+    
+    .icomenu{
+        right: 18px;
+        position: absolute;
+    }

@@ -1,0 +1,47 @@
+<ion-header>
+
+  <ion-navbar>
+    <div style="text-align: center;">
+      <img src="assets/imgs/logo-pnh.png" style="height: 58px;">
+    </div>
+  </ion-navbar>
+  
+</ion-header>
+ 
+
+
+<ion-content class="bg-login" style="background-image: url('/android_asset/www/assets/img/bg.png');     background-size: 700px; text-align: center">
+
+          <ion-grid class="bg-fondo">
+            <ion-row>
+              <ion-col offset-2 col-8></ion-col>
+            </ion-row>
+          </ion-grid>
+
+
+    <form (ngSubmit)="iniciarSesion()" #inicioSesionForm="ngForm" >
+        <ul id="certify" class="collection with-header headercontainers" style="margin: 10px">
+          
+          <div class="input-field cols col s12 m12 l12" padding>
+            <ion-input  [(ngModel)]="credenciales.usuario" type="text" placeholder="Usuario" name="usuario" class="text" required ></ion-input>
+            <ion-input  [(ngModel)]="credenciales.contrasena" type="password" placeholder="Contraseña" name="contrasena" class="text"  required></ion-input>
+          </div>
+
+          <div padding style="text-align: center">
+                <button [disabled]="!inicioSesionForm.form.valid" ion-button color="dark" type="submit" style="width: 80%;border-radius: 5px;">Entrar</button>
+                <!-- <button [disabled]="!inicioSesionForm.form.valid" ion-button block type="submit">Entrar</button> -->
+          </div>
+
+
+        </ul>
+
+    </form> 
+
+
+
+    <!-- <ion-footer>
+<ion-toolbar style="color: #4e6c92">
+    <span>Director: Juan Alex Garcia Paredes</span><br>
+    <span>Programador: Manuel Orlando Guzman Doblado</span>
+  </ion-toolbar>
+</ion-footer> -->
